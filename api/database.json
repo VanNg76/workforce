@@ -1,0 +1,177 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Chromebook",
+            "year": 2017
+        },
+        {
+            "id": 3,
+            "model": "Dell Inspiron",
+            "year": 2021
+        },
+        {
+            "id": 4,
+            "model": "HP Notebook ",
+            "year": 2020
+        },
+        {
+            "id": 5,
+            "model": "Dell Latitude",
+            "year": 2018
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Harry",
+            "lastName": "Potter",
+            "computerId": 1,
+            "departmentId": 1,
+            "locationId": 4
+        },
+        {
+            "id": 2,
+            "firstName": "Larry",
+            "lastName": "Browns",
+            "computerId": 3,
+            "departmentId": 2,
+            "locationId": 3
+        },
+        {
+            "id": 3,
+            "firstName": "Mohamesh",
+            "lastName": "Ali",
+            "computerId": 4,
+            "departmentId": 3,
+            "locationId": 2
+        },
+        {
+            "id": 4,
+            "firstName": "Tom",
+            "lastName": "Jerry",
+            "computerId": 2,
+            "departmentId": 4,
+            "locationId": 1
+        },
+        {
+            "id": 5,
+            "firstName": "Bill",
+            "lastName": "Ng",
+            "computerId": 5,
+            "departmentId": 2,
+            "locationId": 3
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "Accounting"
+        },
+        {
+            "id": 2,
+            "name": "Sales"
+        },
+        {
+            "id": 3,
+            "name": "Marketing"
+        },
+        {
+            "id": 4,
+            "name": "HR"
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "name": "Nashville"
+        },
+        {
+            "id": 2,
+            "name": "Murfreesboro"
+        },
+        {
+            "id": 3,
+            "name": "Franklin"
+        },
+        {
+            "id": 4,
+            "name": "Clarksville"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Juniper Distribution"
+        },
+        {
+            "id": 2,
+            "name": "Arthur Luther"
+        },
+        {
+            "id": 3,
+            "name": "Jennifer Ariston"
+        },
+        {
+            "id": 4,
+            "name": "Mickey Mouse"
+        }
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 2
+        },
+        {
+            "id": 2,
+            "customerId": 3,
+            "employeeId": 2
+        },
+        {
+            "id": 3,
+            "customerId": 2,
+            "employeeId": 1
+        },
+        {
+            "id": 4,
+            "customerId": 3,
+            "employeeId": 1
+        },
+        {
+            "id": 5,
+            "customerId": 1,
+            "employeeId": 3
+        },
+        {
+            "id": 6,
+            "customerId": 4,
+            "employeeId": 3
+        },
+        {
+            "id": 7,
+            "customerId": 2,
+            "employeeId": 4
+        },
+        {
+            "id": 8,
+            "customerId": 3,
+            "employeeId": 4
+        },
+        {
+            "id": 9,
+            "customerId": 1,
+            "employeeId": 5
+        },
+        {
+            "id": 10,
+            "customerId": 2,
+            "employeeId": 5
+        }
+    ]
+}
